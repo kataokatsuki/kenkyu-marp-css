@@ -1,0 +1,114 @@
+/* @theme custom */
+
+@import "default";
+
+h1, h2, h3, h4, h5, header, footer {
+  color: black;
+}
+
+section {
+  font-family: 'Arial' !important;
+  color: black;
+  justify-content: flex-start;
+  padding: 8% 3%;
+}
+
+section::after {
+  width: 92%;
+  text-align: center;
+  color: black;
+  font-size: 60%;
+  padding: 0;
+  bottom: 1.5%;
+}
+
+section.front {
+  padding: 8% 3%;
+}
+
+section.base {
+  padding: 12% 3% 8%;
+}
+
+section.front h1 {
+  text-align: center;
+  padding-top: 6%;
+}
+
+section.front p {
+  text-align: right;
+  padding-top: 15%;
+  font-size: 80%;
+}
+
+header {
+  font-size: 100%;
+  font-weight: bold;
+}
+
+img[alt~="center"] {
+  display: block;
+  margin: 0 auto;
+}
+
+p.img-caption {
+  font-size: 50%;
+}
+
+div.flex-around {
+  display: flex; justify-content: space-around
+}
+
+div.footnote {
+  position: absolute; 
+  left: relative; 
+  bottom: 1%;
+  width: 50%;
+}
+
+div.footnote p {
+  margin-bottom: 0;
+  font-size: 30%;
+}
+
+div.footnote a {
+  margin-bottom: 0;
+  font-size: 30%;
+  display: block;
+}
+
+.red {
+  color: red;
+}
+
+p, a, li {
+  font-size: 85%;
+}
+
+.mb-0 {
+  margin-bottom:0;
+}
+
+div.flex-between {
+  display: flex; justify-content: space-between
+}
+
+p.midium {
+  font-size: 70%;
+}
+
+.vertical-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+ul.none {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 1em;
+  text-indent: -1em;
+}
+/* 
+li {
+} */
